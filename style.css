@@ -1,3 +1,30 @@
 .fa-brands {
     font-size: 3rem;
 }
+
+.squares div {
+    font-size: 50px;
+    /* padding: 10px; */
+}
+
+body div {
+    padding: 10px;
+}
+
+
+.sq_1 {
+    background-color: #2980b9;
+    margin-right: 20px;
+}
+.sq_2 {
+    background-color: #8e44ad;
+    margin: 40px 20px;
+}
+.sq_3 {
+    background-color: #d35400;
+    margin: 10px;
+}
+.sq_4 {
+    background-color: #f39c12;
+    margin: 10px 20px 30px 40px;
+}
