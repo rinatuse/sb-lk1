@@ -28,3 +28,34 @@ body div {
     background-color: #f39c12;
     margin: 10px 20px 30px 40px;
 }
+
+.mario {
+    height: auto;
+    width: 50px;
+    border: 1px solid black;
+    background-color: #2980b9;
+    margin: 5px;
+}
+
+.map {
+    height: 200px;
+    padding: 20px;
+    background-position: bottom;
+    background-size: 20% 100%;
+    margin-bottom: 70px;
+    display: flex;
+}
+
+.map_1 {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.map_2 {
+    justify-content: space-between;
+}
+
+.map_3 {
+    flex-direction: column;
+    align-items: center;
+}
