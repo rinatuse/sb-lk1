@@ -72,3 +72,64 @@ body div {
     border-radius: 5px;
     margin: 10px;
 }
+
+.mycode {
+    height: 100vh;
+    background-image: linear-gradient(to left bottom, rgba(255, 127, 80, 0.629), rgba(192, 192, 192, 0.623) 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+   background-color: rgba(167, 115, 216, 0.689);
+   width: 85.6mm;
+   height: 53.98mm;
+   border-radius: 3.18mm;
+   color: #fff;
+   padding: 6mm;
+   box-sizing: border-box;
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 6mm;
+   grid-template-rows: repeat(3, 1fr);
+}
+
+select, input {
+    outline: none;
+    background-color: transparent;
+    border: 1px solid;
+    color: inherit;
+    width: 100%; 
+    padding-left: 2px;
+    box-sizing: border-box;
+}
+
+.card>[type="number"] {
+    grid-row-start: 2;
+}
+
+select {
+    grid-column-end: span 2;
+}
+
+[type="text"] {
+    grid-row-start: 3;
+    grid-column-end: span 2;
+}
+
+.card__date {
+    grid-row-start: 3;
+    display: flex;
+    /* height: 100%; */
+    /* align-content: stretch; */
+    align-items: center;
+    justify-content: flex-end;
+    grid-column-end: span 2;
+    gap: 6px;
+}
+
+::placeholder {
+    color: #f39c12
+}
+
